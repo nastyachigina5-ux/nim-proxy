@@ -120,6 +120,10 @@ app.post('/v1/chat/completions', async (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.json({ status: 'ok', service: 'OpenAI to NVIDIA NIM Proxy' });
+});
+
 app.all('*', (req, res) => {
   res.status(404).json({ error: { message: `Endpoint ${req.path} not found` } });
 });

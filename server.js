@@ -18,10 +18,10 @@ const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'meta/llama-3.1-8b-instruct',
   'gpt-4': 'meta/llama-3.1-405b-instruct',
   'gpt-4-turbo': 'meta/llama-3.1-405b-instruct',
-  'gpt-4o': 'moonshotai/kimi-k2.6',
-  'claude-3-opus': 'mistralai/mistral-large-3-675b-instruct-2512',
-  'claude-3-sonnet': 'moonshotai/kimi-k2-thinking',
-  'gemini-pro': 'mistralai/mistral-medium-3-instruct'
+  'gpt-4o': 'minimax/minimax-m2.7',
+  'claude-3-opus': 'moonshotai/kimi-k2.5',
+  'claude-3-sonnet': 'mistralai/mistral-large-3-675b-instruct-2512',
+  'gemini-pro': 'z-ai/glm-5.1'
 };
 
 app.get('/health', (req, res) => {

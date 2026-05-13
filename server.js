@@ -20,7 +20,7 @@ const MODEL_MAPPING = {
   'gpt-4-turbo': 'meta/llama-3.1-405b-instruct',
   'gpt-4o': 'minimax/minimax-m2.7',
   'claude-3-opus': 'moonshotai/kimi-k2.5',
-  'claude-3-sonnet': 'mistralai/mistral-large-3-675b-instruct-2512',
+  'claude-3-sonnet': 'moonshotai/kimi-k2.6',
   'gemini-pro': 'z-ai/glm-5.1'
 };
 

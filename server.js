@@ -16,12 +16,12 @@ const ENABLE_THINKING_MODE = false;
 
 const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'meta/llama-3.1-8b-instruct',
-  'gpt-4': 'meta/llama-3.1-405b-instruct',
+  'gpt-4': 'meta/llama-3.3-70b-instruct',
   'gpt-4-turbo': 'meta/llama-3.1-405b-instruct',
-  'gpt-4o': 'minimax/minimax-m2.7',
-  'claude-3-opus': 'moonshotai/kimi-k2.5',
+  'gpt-4o': 'openai/gpt-oss-120b',
+  'claude-3-opus': 'mistralai/mistral-large-3-675b-instruct-2512',
   'claude-3-sonnet': 'deepseek-ai/deepseek-v4-flash',
-  'gemini-pro': 'z-ai/glm-5.1'
+  'gemini-pro': 'moonshotai/kimi-k2.6'
 };
 
 app.get('/health', (req, res) => {

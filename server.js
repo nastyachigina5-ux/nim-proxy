@@ -21,7 +21,7 @@ const MODEL_MAPPING = {
   'gpt-4o': 'moonshotai/kimi-k3',
   'claude-3-opus': 'mistralai/mistral-large-3-675b-instruct-2512',
   'claude-3-sonnet': 'deepseek-ai/deepseek-v4.1-flash',
-  'gemini-pro': 'z-ai/glm-5-3-flash'
+  'gemini-pro': 'z-ai/glm-5-3'
 };
 
 app.get('/health', (req, res) => {

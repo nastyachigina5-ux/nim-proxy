@@ -20,7 +20,7 @@ const MODEL_MAPPING = {
   'gpt-4-turbo': 'meta/llama-3.1-405b-instruct',
   'gpt-4o': 'moonshotai/kimi-k3',
   'claude-3-opus': 'mistralai/mistral-large-3-675b-instruct-2512',
-  'claude-3-sonnet': 'deepseek-ai/deepseek-v4-flash',
+  'claude-3-sonnet': 'deepseek-ai/deepseek-v4.1-flash',
   'gemini-pro': 'z-ai/glm-5-3'
 };
 
